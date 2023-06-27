@@ -1,63 +1,99 @@
-<?php 
-
+<?php
 function example_theme_support() {
-    remove_theme_support('widgets-block-editor');
+    remove_theme_support( 'widgets-block-editor' );
 }
-add_action('after_setup_theme', 'example_theme_support');
+add_action( 'after_setup_theme', 'example_theme_support' );
+
 
 /*widget assets*/
-function zona_widget()
-{
-//Widget 1
+function zona_widget () {
+
+//widget 1
 register_sidebar(array(
-    'name'=> 'Footer columna 1', 
-    'id'=> 'footer_uno', //le damos Id y nombre al footer
-    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //Añadimos clases y contenedor
-    'after_widget' => '</div>', //cerramos los contenedores
-    'before_title'=> '<h5 class="titulo-menu-footer">', //añadimos contenedores para titulo
-    'after_title'=> '</h5>', //cerramos contenedores para titulo
+    'name'=> 'Menu de Navegacion',
+    'id'=> 'nav_uno', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
 ));
+//widget 1
 
-//Widget 1
-
-//Widget 2
+//widget 2
 register_sidebar(array(
-    'name'=> 'Footer columna 2', 
-    'id'=> 'footer_dos', //le damos Id y nombre al footer
-    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //Añadimos clases y contenedor
-    'after_widget' => '</div>', //cerramos los contenedores
-    'before_title'=> '<h5 class="titulo-menu-footer">', //añadimos contenedores para titulo
-    'after_title'=> '</h5>', //cerramos contenedores para titulo
+    'name'=> 'Nav Footer Principal',
+    'id'=> 'nav_footer_uno', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
 ));
+//widget 2
 
-//Widget 2
-
-//Widget 3
+//widget 3
 register_sidebar(array(
-    'name'=> 'Footer columna 3', 
-    'id'=> 'footer_tres', //le damos Id y nombre al footer
-    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //Añadimos clases y contenedor
-    'after_widget' => '</div>', //cerramos los contenedores
-    'before_title'=> '<h5 class="titulo-menu-footer">', //añadimos contenedores para titulo
-    'after_title'=> '</h5>', //cerramos contenedores para titulo
+    'name'=> 'Nav 1 Footer Interior',
+    'id'=> 'nav_footer_interior_uno', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
 ));
+//widget 3
 
-//Widget 3
-
-//Widget 4
+//widget 4
 register_sidebar(array(
-    'name'=> 'Footer columna 4', 
-    'id'=> 'footer_cuatro', //le damos Id y nombre al footer
-    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //Añadimos clases y contenedor
-    'after_widget' => '</div>', //cerramos los contenedores
-    'before_title'=> '<h5 class="titulo-menu-footer">', //añadimos contenedores para titulo
-    'after_title'=> '</h5>', //cerramos contenedores para titulo
+    'name'=> 'Nav 2 Footer Interior',
+    'id'=> 'nav_footer_interior_dos', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
 ));
+//widget 4
 
-//Widget 4
+//widget 5
+register_sidebar(array(
+    'name'=> 'Nav 3 Footer Interior',
+    'id'=> 'nav_footer_interior_tres', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
+));
+//widget 5
 
+//widget 6
+register_sidebar(array(
+    'name'=> 'Nav 4 Footer Interior',
+    'id'=> 'nav_footer_interior_cuatro', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
+));
+//widget 6
+
+//widget 7
+register_sidebar(array(
+    'name'=> 'Nav 5 Footer Interior',
+    'id'=> 'nav_footer_interior_cinco', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
+));
+//widget 7
+
+//widget 8
+register_sidebar(array(
+    'name'=> 'Nav 6 Footer Interior',
+    'id'=> 'nav_footer_interior_seis', //ID y nombre al footer
+    'before_widget'=> '<div id="%1$s" class="col-12 col-md-4">', //clase y contenedor
+    'after_widget'=> '</div>', //cerrar contenedor
+    'before_title'=> '<h5 class="titulo-menu-footer">', //contenedor para titulo
+    'after_title'=> '</h5>'
+));
+//widget 8
 }
-
-add_action ('widgets_init', 'zona_widget');
-/*Widget assets*/
-
+add_action('widgets_init', 'zona_widget');

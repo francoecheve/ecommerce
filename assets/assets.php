@@ -10,4 +10,5 @@ include get_template_directory() . '/assets/inc/js-functions.php';
 include get_template_directory() . '/assets/inc/widgets-functions.php';
 /*llamado a modulos*/
 include get_template_directory() . '/assets/inc/modulos-functions.php';
-
+/*llamado a woocommerce*/
+include get_template_directory() . '/assets/inc/funciones-woocommerce.php';

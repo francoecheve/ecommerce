@@ -1,3 +1,129 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    background-color: #e7e7e7;
+}
+
+.site-header {
+    background-color: yellow;
+    height: 12vh;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: red;
+}
+
+/*suscribete*/
+.suscribete {
+    background: linear-gradient(90deg, rgba(169,15,144,1) 0%, rgba(12,26,81,1) 100%);
+    opacity: 90%;
+    color: white;
+    padding: 15px;
+}
+/*suscribete*/
+
+/*publicidad*/
+.publicidad {
+    background-color: rgb(53, 22, 22);
+    opacity: 90%;
+}
+/*publicidad*/
+.descubre {
+    object-fit: cover;
+}
+
+.position {
+    position: absolute;
+    top: 60%;
+}
+
+.spacing {
+    letter-spacing: 4px;
+    font-size: 10px;
+}
+/*Footer*/
+.footer-background {
+    background-color: #fff;
+}
+.button-footer {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 32px;
+    padding: 0 20px;
+    border-radius: 5px 5px 0 0;
+}
+.background-footer-interior .card-body {
+    background-color: #f7f7f7;
+    border: none;
+}
+.ul-footer-principal .col-12 {
+    width: 100%;
+}
+
+.menu-menu-principal ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.menu-menu-principal a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.menu-menu-footer-uno-container ul {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    gap: 20px;
+}
+.menu-menu-footer-uno-container ul li a {
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+    color: #333;
+}
+.info-footer {
+    font-size: 12px;
+    margin-left: 80px;
+    
+}
+.footer-interior h5 {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+.footer-interior .col-lg-2 {
+    margin: 0%;
+    padding: 0%;
+}
+.footer-interior #nav_menu-2 {
+    width: 100%;
+}
+.footer-interior #nav_menu-3 {
+    width: 100%;
+}
+.footer-interior #nav_menu-4 {
+    width: 100%;
+}
+.footer-interior #nav_menu-5 {
+    width: 100%;
+}
+.footer-interior #nav_menu-6 {
+    width: 100%;
+}
+.footer-interior #nav_menu-7 {
+    width: 100%;
+}
+.footer-interior #nav_menu-8 {
+    width: 100%;
+}
+/*Footer*/
