@@ -16,9 +16,9 @@ get_header();
 ?>
 
 	<main id="primary" class="container-fluid p-0 m-0 home">
-	
-
-		<?php
+	<p>hola</p>
+<?php include get_template_directory() . '/assets/modulos/modulo-productos/loop-productos.php'; ?>
+<?php
 		while ( have_posts() ) :
 			the_post();
 
